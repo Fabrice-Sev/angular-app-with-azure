@@ -1,0 +1,16 @@
+<p>home works!</p>
+<span>{{ title }} app is running! THIS IS FAB! Let me add some content and see how it works</span>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>User ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of list">
+            <td>{{item._id}}</td>
+            <td>{{item.matriculeEmploye}}</td>
+        </tr>
+    </tbody>
+</table>
